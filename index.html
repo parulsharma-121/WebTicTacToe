@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Tic-Tac-Toe</h1>
+        </div>
+        <div class="btn">
+            <button onclick="restartGame()">Restart Game</button>
+        </div>
+        <div class="flex-container">
+            <div class="row">
+                <div class="box" onclick="move(this,0,0)"></div>
+                <div class="box" onclick="move(this,0,1)"></div>
+                <div class="box" onclick="move(this,0,2)"></div>
+            </div>
+            <div class="row">
+                <div class="box" onclick="move(this,1,0)"></div>
+                <div class="box" onclick="move(this,1,1)"></div>
+                <div class="box" onclick="move(this,1,2)"></div>
+            </div>
+            <div class="row">
+                <div class="box" onclick="move(this,2,0)"></div>
+                <div class="box" onclick="move(this,2,1)"></div>
+                <div class="box" onclick="move(this,2,2)"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>

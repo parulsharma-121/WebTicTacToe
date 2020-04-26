@@ -1,0 +1,32 @@
+.container{
+    margin-left:50px;
+    margin-right: 50px;
+}
+.heading{
+    background-color: #808080;
+    text-align: center;
+}
+.btn{
+    padding-bottom: 20px;
+}
+
+.row{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:#c2bebe;
+    color:black;
+    height: 180px;
+    width:33.33%;
+    border: 1px solid black;
+    font-size:60px;
+    
+}
