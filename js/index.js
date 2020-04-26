@@ -8,7 +8,6 @@ function move(element, xpos, ypos) {
         if(checkWinner(board, player)){
             setTimeout(() => {
                 alert("player " + player + " Won");
-                window.location.href="/index.html";
             }, 0);
             return;
         }
@@ -16,7 +15,6 @@ function move(element, xpos, ypos) {
         if(checkDraw(board)){
             setTimeout(() => {
                 alert("Game Draw");
-                window.location.href="/index.html";
             }, 0);
         }
         player = player == 1 ? 2 : 1;
@@ -59,5 +57,5 @@ function checkDraw(board) {
 }
 
 function restartGame(){
-    window.location.href="/index.html";
+    window.location.href="index.html";
 }
